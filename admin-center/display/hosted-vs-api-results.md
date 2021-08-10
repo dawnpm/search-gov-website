@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Which Search.gov results page solution is right for you?
+title: Available Search Features: Which Search.gov results page solution is right for you?
 tags: display brand api
 date: September 15, 2020
 last_modified_at: April 6, 2021
