@@ -10,6 +10,7 @@ sidenav: about_us
 redirect_from:
     - /blog/2018-annual-review.html
 ---
+
 <span style="float:right;"><img 
   src="{{ site.baseurl }}/files/2018_annual_review_small.png" 
   alt="Top Topics in 2018 poster, small version. Following is a link to a larger PDF version. The poster shows a set of 13 pie charts, one for each top topic. The pie charts show the details of the top 25 queries run in 2019 for that topic." style="width:260px;height:300px;"><br />

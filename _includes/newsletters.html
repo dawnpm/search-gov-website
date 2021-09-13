@@ -1,0 +1,14 @@
+<div class="newsletters">
+{% assign newsletter = site.newsletters | sort: 'date' | reverse %}
+{% for newsletter in newsletters %}
+  {% assign currentdate = newsletter.newsletter-year %}
+  {% if currentdate != date %}
+    {% unless forloop.first %}</ul>{% endunless %}
+    <h1 id="y{{newsletter.date | date: "%Y"}}">{{ currentdate }}</h1>
+    <ul>
+    {% assign date = currentdate %}
+  {% endif %}
+    <li><a href="{{ site.baseurl }}{{ newsletter.url }}">{{ newsletter.title }}</a></li>
+  {% if forloop.last %}</ul>{% endif %}
+{% endfor %}
+</div>

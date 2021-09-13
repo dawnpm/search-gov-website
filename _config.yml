@@ -164,6 +164,8 @@ about_us:
       url: "/about/updates/roadmap/"
     - name: Release Notes
       url: "/about/updates/releases/"
+    - name: Newsletters
+      url: "/about/updates/newsletters/"
     - name: Annual Reviews
       url: "/about/updates/annual-reviews/"
     - name: Search.gov in Policy
